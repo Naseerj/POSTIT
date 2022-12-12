@@ -1,0 +1,28 @@
+.parentdiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .linkdiv {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .linkdiv a {
+    text-decoration: none;
+    color: #292929;
+  }
+  .dummydiv {
+    width: 40%;
+  }
+  .firstbtn {
+    height: 33px;
+    width: 132px;
+    left: 1208px;
+    top: 30px;
+    border-radius: 8px;
+    background: #0086B0;
+  border: none;
+  }
+  

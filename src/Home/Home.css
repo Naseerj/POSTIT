@@ -1,0 +1,108 @@
+.homeimgdiv {
+  background-image: url(../Images/Rectangle\ 3.svg);
+  background-size: contain;
+  height: 616px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.header1 {
+  margin: 0%;
+  font-family: Harmattan;
+  font-size: 95px;
+  font-weight: 700;
+  line-height: 180px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.secondbtn {
+  height: 33px;
+  width: 132px;
+  left: 1208px;
+  top: 30px;
+  border-radius: 8px;
+  background: #0086b0;
+  border: none;
+}
+.textdiv {
+  width: 45%;
+  /* height: 900px; */
+  margin-left: 100px;
+  padding: 80px 20px 20px 20px;
+  /* margin-top: -100px; */
+}
+.ptag1 {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-top: 0%;
+  width: 500px;
+}
+.background2div {
+  background-image: url(../Images/Rectangle\ 38.svg);
+  background-size: contain;
+  width: 80%;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 20px; */
+}
+.inp1 {
+  height: 39px;
+  width: calc(496px - 156px);
+  border-radius: 8px 0px 0px 8px;
+  outline: none;
+  font-size: 20px;
+  padding-left: 10px;
+  border: none;
+}
+.inp1::placeholder {
+  text-align: left;
+  /* font-size: 20px; */
+  /* color: aquamarine; */
+  /* margin-left: 200px; */
+  font-family: Harmattan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #6d6d6d;
+  /* width: 200px; */
+}
+.thirdbtn {
+  border-radius: 0px 8px 8px 0px;
+  background: #0086b0;
+  border: none;
+  height: 41px;
+  /* margin-bottom: 85px; */
+  width: 156px;
+  /* margin-top: 0px; */
+  /* padding: 20px; */
+}
+.inp-btn-div {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  margin-top: 20px;
+  height: 50px;
+
+}
+.postitp {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+}
+.header2{
+  margin-top: 0px;
+}
+.paddiv{
+  /* margin-top: 0px; */
+  padding-top: 50px;
+}
