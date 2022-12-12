@@ -42,13 +42,13 @@
 }
 .background2div {
   background-image: url(../Images/Rectangle\ 38.svg);
-  background-size: contain;
+  background-size: cover;
   width: 80%;
   height: 250px;
   background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
-  /* padding: 20px; */
+  padding: 5px;
 }
 .inp1 {
   height: 39px;
@@ -87,7 +87,7 @@
   display: flex;
   justify-content: center;
   /* width: 100%; */
-  margin-top: 20px;
+  margin-top: 30px;
   height: 50px;
 
 }
@@ -98,11 +98,19 @@
   line-height: 25px;
   letter-spacing: 0.02em;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .header2{
-  margin-top: 0px;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 .paddiv{
   /* margin-top: 0px; */
   padding-top: 50px;
+}
+.fulldiv{
+  padding: 50px;
+}
+.pushdiv{
+  margin-bottom: 0px;
 }

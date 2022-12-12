@@ -27,15 +27,30 @@ const Home = () => {
           <button className="secondbtn">Get Started</button>
         </div>
       </div>
+      <div className="fulldiv">
       <div>
         <h3>{arr[0].img}</h3>
       </div>
 
       <div className="background2div">
+    <div className="pushdiv">
+    <h2 className="header2">Try Postit</h2>
+          <p className="postitp">
+            Do you want to write or discover stories from writers on any topic?
+          </p>
+         <div className="inp-btn-div">
+         <input
+              className="inp1"
+              type="text"
+              placeholder="Enter email address"
+            />
+            <button className="thirdbtn">Get Started</button>
+         </div>
+    </div>
         {/* <img src={Background2} alt="" /> */}
-      
-         <div className="paddiv">
-         <h2 className="header2">Try Postit</h2>
+
+        {/* <div className="paddiv">
+          <h2 className="header2">Try Postit</h2>
           <p className="postitp">
             Do you want to write or discover stories from writers on any topic?
           </p>
@@ -47,8 +62,8 @@ const Home = () => {
             />
             <button className="thirdbtn">Get Started</button>
           </div>
-         </div>
-      
+        </div> */}
+      </div>
       </div>
     </div>
   );

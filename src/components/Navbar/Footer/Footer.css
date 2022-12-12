@@ -1,0 +1,61 @@
+.overalldiv2 {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: black; */
+ 
+}
+.overalldiv1{
+    background: #292929;
+    padding: 40px;
+}
+.div1 {
+  width: 300px;
+  color: white;
+}
+.div2 {
+  color: white;
+}
+.div3 {
+  color: white;
+}
+.div4 {
+  color: white;
+}
+.div5{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    text-align: right;
+    margin-left: 75%;
+}
+.inp3 {
+  height: 39px;
+  width: 337px;
+  padding-left: 10px;
+  border-radius: 2px;
+  outline: none;
+}
+.btn4 {
+  color: white;
+  background: #0086b0;
+  height: 27px;
+  width: 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  position: absolute;
+  
+  /* padding: 40px; */
+}
+.arr {
+    width: 15px;
+}
+.btndiv4 {
+    position: relative;
+width: 102px;
+    bottom: 35px;
+  left: 239px;
+  background-color: RED;
+}
