@@ -15,21 +15,25 @@ import x from "../Images/Vector (29).svg";
 const Home = (props) => {
   const modalRef = useRef();
   const overlayRef = useRef();
+const btnRef = useRef()
 
-  const cancelModal = () => {
-    if (
-      modalRef.current.style.display === "none" &&
-      overlayRef.current.style.display === "none"
-    ) {
-      modalRef.current.style.display = "none";
-      overlayRef.current.style.display = "none";
-      console.log("you");
-    } else {
-      modalRef.current.style.display = "none";
-      overlayRef.current.style.display = "none";
-      console.log("me");
-    }
-  };
+
+
+
+  // const cancelModal = () => {
+  //   if (
+  //     modalRef.current.style.display === "none" &&
+  //     overlayRef.current.style.display === "none"
+  //   ) {
+  //     modalRef.current.style.display = "none";
+  //     overlayRef.current.style.display = "none";
+  //     console.log("you");
+  //   } else {
+  //     modalRef.current.style.display = "none";
+  //     overlayRef.current.style.display = "none";
+  //     console.log("me");
+  //   }
+  // };
   const handleModal = () => {
     if (
       modalRef.current.style.display === "none" &&
@@ -37,6 +41,7 @@ const Home = (props) => {
     ) {
       modalRef.current.style.display = "block";
       overlayRef.current.style.display = "block";
+      // modalRef.current.style.overflow = 'hidden'
     } else {
       modalRef.current.style.display = "none";
       overlayRef.current.style.display = "none";
@@ -62,8 +67,17 @@ const Home = (props) => {
       button: "technology",
     },
   ];
+  const checkColor = ()=>{
+    if(btnRef.current.style.color === 'red'){
+      btnRef.current.style.color = 'green'
+      console.log('first')
+    }else{
+      btnRef.current.style.color = 'green'
+      console.log('second')
+    }
+  }
   return (
-    <div>
+    <div className="ovdiv">
       <Navbar />
       <div className="homeimgdiv">
         <div className="textdiv">
@@ -81,12 +95,19 @@ const Home = (props) => {
       <div className="holderdiv">
         {arr.map((pics) => {
           return (
+            
             <div className="bg1" key={pics.id}>
+              <div>
+            
+              </div>
               <div className="bg">
                 <div className="grid"> 
                 <img src={pics.img} alt="" />
                <div>
-               <button>{pics.button}</button>
+              
+               <button className="trrr" onClick={()=>{
+                checkColor()
+               }} ref={btnRef}>{pics.button}</button>
                 <h4 className="pred"> {pics.text}</h4>;
                </div>
                 </div>
@@ -120,13 +141,16 @@ const Home = (props) => {
         </div>
       </div>
       {/* modal here */}
-      <div ref={overlayRef} className="overlay">
+      {/* <div onClick={handleModal} ref={overlayRef} className="overlay">
         <div ref={modalRef} className="modal">
           <form className="modal-content">
             <div className="xdiv">
-              <img onClick={handleModal} className="x" src={x} alt="" />
+              <img  className="x" src={x} alt="" />
             </div>
-            <div className="try-div">
+            <div onClick={(e)=>{
+              e.stopPropagation()
+          
+            }} className="try-div">
               <h2>Join Postit</h2>
               <p>Enter your email address to create an account on Postit.</p>
               <div className="form-div1">
@@ -146,7 +170,7 @@ const Home = (props) => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

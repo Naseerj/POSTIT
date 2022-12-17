@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 import logo from '../../Images/Postit 1.svg'
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
         <a href="/">Stories</a>
         <a href="/">Contact</a>
         <a href="/">Sign in</a>
-        <button className='firstbtn'>Get Started</button>
+       <Link to='/signup'> <button className='firstbtn'>Get Started</button></Link>
       </div>
       </div>
     </div>

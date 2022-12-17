@@ -1,0 +1,68 @@
+#homepagediv {
+  /* background-color: aquamarine; */
+  /* width: 100%; */
+  /* height: 400px; */
+  display: flex;
+  justify-content: space-between;
+  padding:  50px;
+  /* background-image: url('../Images/unsplash_Z2bJeJQRbW0.svg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.nametext {
+  font-family: Harmattan;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 79px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom:15px;
+  /* padding: 20px; */
+}
+.namediv {
+  /* width: 35%; */
+  padding: 15px;
+}
+.homebtn {
+  height: 52px;
+  width: 230px;
+  left: 102px;
+  top: 444px;
+  border-radius: 5px;
+  background: #0086b0;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.homebtn2 {
+  height: 52px;
+  width: 230px;
+  left: 102px;
+  top: 444px;
+  border-radius: 5px;
+  transition: 2s;
+  color: #0086b0;
+  border: 1px solid #0086b0;
+  font-size: 20px;
+}
+.homebtn2:hover {
+  background: #0086b0;
+  transition: 0.2s;
+  color: white;
+}
+.btnsdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.loremtext {
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 5px;
+  margin-top: 0;
+  width: 590px;
+}
