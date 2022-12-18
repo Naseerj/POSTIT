@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import Signup from "./Signup/Signup";
 import Login from "./Login/Login";
 import Dashboard from "./Dashboard/Dashboard";
+import Mystory from "./Story/Mystory/Mystory";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
          <Route path="/signup" element={<Signup/>} />
          <Route path="/login" element={<Login/>} />
          <Route path="/dashboard/home" element={<Dashboard/>}/>
+         <Route path="/dashboard/mystory" element={<Mystory/>}/>
         </Routes>
       </BrowserRouter>
     </div>
