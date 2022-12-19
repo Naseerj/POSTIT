@@ -1,0 +1,38 @@
+.d-firstdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.d-firstdiv button {
+  background-color: black;
+  color: white;
+  height: 54.83805847167969px;
+  width: 197.41700744628906px;
+  font-size: 20px;
+  border-radius: 7.83400821685791px;
+}
+.d-secondiv {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  /* padding: 20px; */
+}
+
+.d-parentdiv {
+
+  padding: 50px;
+}
+.d-secondiv a {
+  font-family: Harmattan;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: #757575;
+}
